@@ -21,18 +21,18 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180902120523.11"><vh>week1-5</vh>
+<v t="leo.20180902120523.12"><vh>week 1-5</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180902120523.13"><vh>week6-9</vh>
+<v t="leo.20180902120523.14"><vh>week6-10</vh>
+<v t="leo.20180902120523.15"><vh>week6-10</vh></v>
 </v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
+<v t="leo.20180902120523.16"><vh>week11-15</vh>
+<v t="leo.20180902120523.17"><vh>week11-15</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20180902120523.18"><vh>week16-18</vh>
+<v t="leo.20180902120523.19"><vh>week16-18</vh></v>
 </v>
 </v>
 </v>
@@ -45,7 +45,7 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">##協同產品設計實習
+<t tx="leo.20180902120523.10">## 協同產品設計實習
 
 ### s40723204 邱倚瀅
 
@@ -71,9 +71,8 @@ Created by [s40723204](https://s40723204.github.io/cd2020/content/index.html)
 * week1   創建個人倉儲網站
 * week2  更新py3.8.2
 * week3  Assignment 1 (可攜系統)
-* 
-* 
-* 
+* week4  自主學習跟上進度
+* week5
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -92,12 +91,14 @@ Created by [s40723204](https://s40723204.github.io/cd2020/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
+<t tx="leo.20180902120523.15"># week6-9
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+* week6   
+* week7  
+* week8  
+* week9
+* week10
 
-$$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -110,33 +111,14 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20180902120523.17"># week11-15
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+* week11
+* week12
+* week13
+* week14
+* week15
+
 </t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -147,11 +129,12 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
+<t tx="leo.20180902120523.19"># week16-18
 
-### 導入影片 template
+* week16
+* week17
+* week18
 
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
