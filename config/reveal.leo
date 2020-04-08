@@ -72,7 +72,7 @@ Created by [s40723204](https://s40723204.github.io/cd2020/content/index.html)
 * week2  更新py3.8.2
 * week3  Assignment 1 (可攜系統)
 * week4  自主學習跟上進度
-* week5
+* week5 個人進度簡報
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
