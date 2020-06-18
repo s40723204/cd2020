@@ -208,7 +208,17 @@
 <p></p>
 <p></p>
 </blockquote><h2>Week16-18</h2>
-<h1>Assignment</h1>
+<h4>week16  IPV6對外連線個人倉儲</h4>
+<p>1.<span>在</span><span>virtualbox</span><span>網路設定將</span><span>兩個ipv6選項打勾</span><span>，</span><span>ubuntu</span><span>設定網路設為</span><span>net work</span><span>，開啟</span><span>ubuntu</span></p>
+<p>2.<span>輸入密碼為</span><span>kmol2020</span><span>，開啟</span><span>LXTermial</span><span>，輸入</span><span><span> </span>cd etc &gt; cd apt &gt;cd apt.conf.d &gt; sudo vi proxy.conf</span></p>
+<p>3.<span>輸入密碼為</span><span>kmol2020</span><span>，</span><span>按 i 編輯</span><span>如影片，接著按</span><span><span> </span>esc 並輸入</span><span><span><span> </span>:wq</span><span> </span></span><span>存檔結束</span></p>
+<p>4.在<span>apt下輸入 sudo apt update，輸入 sudo apt install net-tools， cd etc &gt; cd netplan &gt; sudo vi 00-install-config.yaml</span><span>，編輯內容如影片</span></p>
+<p>5.在<span>netplan 下輸入ping6 2001:288:6004:17::254測試，新增ipv4及ipv6埠號如影片，ipv6的guestip要在netplan下輸入ifconfig查詢，輸入fd17那行</span></p>
+<p><span>6.進入tmp，輸入git config -- global --add http.proxy [2001:288:6004:17::69]:3128，完成後輸入git clone --recurse-submodules 個人倉儲網址</span></p>
+<p><span>7.進入cd2020 &gt; cmsimde，輸入sudo vi wsgi.py，將近端host網址更改為個人ipv6的gusetip，輸入python3 wsgi.py開啟近端</span></p>
+<p><span>8.新增一個ipv6埠號為9443，將ipv6的hostip改為 2001:288:6004:17:2020:2::72個人號碼</span></p>
+<p><span>9.變更網路介面卡設定ipv6為2001:288:6004:17:2020:2::72個人號碼，關閉proxy及防火牆，開起個人近端連線網址為 https://[2001:288:6004:17:2020:2::72個人號碼]:19443</span></p>
+<p><span>影片:</span></p><h1>Assignment</h1>
 <h2>Assignment1(可攜系統)</h2>
 <p><span style="color: #000000;">組長開直播分配Assignment 1工作，我所做的是</span><span style="background-color: #ffffff; color: #0000ff;">可攜系統</span></p>
 <p><span style="color: #000000;">1.在隨身碟裡創建</span><span style="color: #0000ff;">cd2020</span><span style="color: #000000;">資料夾，在cd2020裡創建</span><span style="color: #0000ff;">data</span><span style="color: #000000;">資料夾，在data裡分別創建</span><span style="color: #0000ff;">home</span>/<span style="color: #0000ff;">msys2</span>/<span style="color: #0000ff;">PortableGit</span>/<span style="color: #0000ff;">python383</span>/<span style="color: #0000ff;">tmp</span>/<span style="color: #0000ff;">wscite237</span></p>
