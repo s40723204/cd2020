@@ -24,7 +24,7 @@
 <v t="leo.20180902120523.11"><vh>week1-5</vh>
 <v t="leo.20180902120523.12"><vh>week 1-5</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>week6-9</vh>
+<v t="leo.20180902120523.13"><vh>week6-10</vh>
 <v t="leo.20180902120523.14"><vh>week6-10</vh>
 <v t="leo.20180902120523.15"><vh>week6-10</vh></v>
 </v>
@@ -34,6 +34,15 @@
 <v t="leo.20180902120523.18"><vh>week16-18</vh>
 <v t="leo.20180902120523.19"><vh>week16-18</vh></v>
 </v>
+</v>
+<v t="leo.20200702130051.1"><vh>Assignment1</vh>
+<v t="leo.20200702130051.2"><vh>Assignment1</vh></v>
+</v>
+<v t="leo.20200702130114.1"><vh>Assignment2</vh>
+<v t="leo.20200702130114.2"><vh>Assignment2</vh></v>
+</v>
+<v t="leo.20200702130117.1"><vh>Assignment3</vh>
+<v t="leo.20200702130117.2"><vh>Assignment3</vh></v>
 </v>
 </v>
 </v>
@@ -132,7 +141,7 @@ Created by [s40723204](https://s40723204.github.io/cd2020/content/index.html)
 <t tx="leo.20180902120523.19"># week16-18
 
 * week16  IPV6對外連線個人倉儲
-* week17
+* week17  期末報告
 * week18
 
 </t>
@@ -306,5 +315,51 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200702130051.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200702130051.2"># Assignment1
+
+* Assignment1(可攜系統)
+assignment1 有可攜系統、四輪車、亂數分組，我被分配到可攜系統，操作內容及影片在個人網頁
+
+</t>
+<t tx="leo.20200702130114.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200702130114.2"># Assignment2
+
+* Assignment2  MechanicalDesignProcess (第二章翻譯)
+ assignment2 有Topic 0 、 Topic 1，我被分到Topic 1第二章翻譯，其他統整在個人網頁
+</t>
+<t tx="leo.20200702130117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200702130117.2"># Assignment3
+
+* Assignment3  個人翻譯MSModelingAndTFApproaches 50~81頁
+
+assignment3有MSModelingAndTFApproaches、MechatronicDesignCases、MechaFutureAndChallenges、MechaEducFutureNeed，我被分配翻譯MSModelingAndTFApproaches 50~81頁，其他統整PDF在個人網頁
+
+
+</t>
 </tnodes>
 </leo_file>
